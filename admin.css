@@ -1,0 +1,11 @@
+.wrap{
+    color: white;
+    margin: auto;
+    margin-left: 550px;
+    margin-top: 300px;
+}
+body{
+    background-color: rgb(42, 42, 72);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

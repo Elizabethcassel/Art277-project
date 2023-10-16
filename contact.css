@@ -1,0 +1,112 @@
+.navbar{
+    background:rgb(42, 42, 72); 
+    color: white;
+    height: 60px;
+    padding: 10px;
+    margin: auto;
+  }
+  .navbar ul li{
+    display: inline;
+     padding: 60px;
+     font-size: 0.9em;
+    
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color:lightblue;
+  }
+  .navbar ul li a:hover{
+    background:white;
+    border-radius: 3px;
+  }
+  .main p{
+    font-family: sans-serif;
+  }
+  .footer{
+    background: rgb(42, 42, 72);
+    clear: both;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    height: 400px;
+    
+  }
+  .footer button{
+    color:white;
+    height: 40px;
+    width: 100px;
+    border: 1px;
+    border-radius: 3px;
+    background-color: red;
+    cursor: pointer;
+  }
+  .ft{
+    float: left;
+    padding: 50px;
+  }
+  .footer p{
+    color: blue;
+    text-align: left;
+    padding-top: 50px;
+  }
+  
+  .submenu{
+    display: none;
+    /*display: ;*/
+    color: white;
+  
+    
+  }
+  .submenu ul li a{
+      color: blue;
+      background-color: white;
+  
+  }
+  .submenu ul li a :hover{
+      background: blue;
+      color: white;
+  }
+  
+  .navbar ul li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    background: #fff;
+    margin-top: 15px;
+    margin-left: -15px; 
+  }
+  .navbar ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+  }
+  .navbar ul li:hover .submenu ul li{
+    padding-right: 30px;
+    width: 0px;
+    padding: 0px;
+    text-align: center;
+    display: inline;
+  }
+  .box {
+    padding-top: 400px;
+    max-width: 400px;
+    margin:  auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color:lightblue;
+    padding-bottom: 50px;
+
+  }
+button{
+    background-color: red;
+    color: white;
+    border: 1px;
+    border-radius: 2px;
+    width: 400px;
+    height: 30px;
+}
+.container2{
+    color: blue;
+    font-size: medium;
+}
+
+  

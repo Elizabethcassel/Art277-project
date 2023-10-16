@@ -1,0 +1,228 @@
+/*This is the style for History page*/
+
+body{
+    background-image: url(home.jpeg);
+    
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    font: 1.2em solid serif,italic;
+    
+    
+}
+#header{
+  background: #ccc;
+  text-transform: capitalize;
+  height: 30px;
+  padding: 5px;
+}
+#main{
+  width:100%;
+  height: 280px;
+
+  float:center;
+  padding: right 3px;
+  text-align: center;
+
+  
+}
+.navbar{
+background-color: rgb(42, 42, 72); 
+  color: white;
+  height: 60px;
+  padding: 3px;
+}
+.navbar ul li{
+  display: inline;
+   padding: 60px;
+   font-size: 0.9em;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color:lightblue;
+}
+.navbar ul li a:hover{
+  background:white;
+  border-radius: 3px;
+}
+.main p{
+  font-family: sans-serif;
+}
+.footer{
+  background: rgb(42, 42, 72);
+  clear: both;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  height: 400px;
+  
+}
+.footer button{
+  color:white;
+  height: 40px;
+  width: 100px;
+  border: 1px;
+  border-radius: 3px;
+  background-color: red;
+}
+.ft{
+  float: left;
+  padding: 50px;
+}
+.footer p{
+  color: blue;
+  text-align: left;
+  padding-top: 50px;
+}
+
+
+.submenu{
+  display: none;
+  color: white;
+
+  
+}
+.submenu ul li a{
+    color: blue;
+    background-color: white;
+
+}
+.submenu ul li a :hover{
+    background: blue;
+    color: white;
+}
+
+.navbar ul li:hover .submenu{
+  display: inline-block;
+  position: absolute;
+  background: #fff;
+  margin-top: 15px;
+  margin-left: -15px; 
+}
+.navbar ul li:hover .submenu ul{
+  display: block;
+  margin: 10px;
+}
+.navbar ul li:hover .submenu ul li{
+  padding-right: 30px;
+  width: 0px;
+  padding: 0px;
+  text-align: center;
+  display: inline;
+}
+.container{
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  margin: auto;
+  padding-left: 100px;
+  align-content: center;
+
+}
+#loginForm{
+margin: auto; 
+  width: 90%;
+  border-radius: 50px;
+}
+button{
+  font-size: 0.57em;
+  height: 30px;
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.container1{
+  border-style: solid;
+  border-width: 2opx;
+  height: 150px;
+}
+.container2{
+  font-size: 2em;
+  
+}
+
+.xyz a{
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+   background-color: rgb(99, 28, 28);
+   float: left;
+}
+.xyz b{
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+    background-color: rgb(55, 85, 168);
+    align-items: center;
+}
+.xyz c{
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+    background-color: #2d766a;
+    float: right;
+}
+
+h5{
+    color: white;
+ 
+}
+.z{
+  
+width: 450px;
+height: 700px;
+border: 1px;
+background-color:lightblue;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 30px;
+margin-bottom: 30px;
+float: left;
+margin-left: 50px;
+
+position: relative;
+  animation: slideIn 2s ease;
+}
+
+@keyframes slideIn {
+  0% {
+    top: 100%; /* Start off the screen at the bottom */
+  }
+  100% {
+    top: 0; /* End at the top */
+  }
+}
+
+.x{
+    width: 450px;
+height: 700px;
+border: 1px;
+background-color:lightblue;
+padding-left: 30px;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 30px;
+float: right;
+margin-right: 50px;
+padding-right: 30px;
+
+position: relative;
+animation: slideIn 2s ease;
+}
+
+@keyframes slideIn {
+0% {
+  left: -100%;
+}
+100% {
+  left: 0;
+}
+}
+
+span{
+    color: deepskyblue;
+}
